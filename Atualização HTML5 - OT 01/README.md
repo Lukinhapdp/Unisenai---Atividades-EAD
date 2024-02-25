@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo Online</title>
+    <title> Currículo Online </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Currículo de Lucas Adriano Pereira/h1>
+        <h1>Currículo de Lucas Adriano Pereira</h1>
         <nav>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
