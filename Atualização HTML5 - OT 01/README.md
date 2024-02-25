@@ -26,7 +26,7 @@
             <h2>Experiência Profissional</h2>
             <article>
                 <h3>Analista de Suporte Técnico Junior</h3>
-                <p>Qality Digital - 2024 até o momento</p>
+                <p>Quality Digital - 2024 até o momento</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </article>
         </section>
