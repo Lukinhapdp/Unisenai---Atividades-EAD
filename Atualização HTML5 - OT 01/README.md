@@ -25,8 +25,8 @@
         <section id="experiencia">
             <h2>Experiência Profissional</h2>
             <article>
-                <h3>Designer Gráfico</h3>
-                <p>Fernandes Autoparts - 2021 até 2023</p>
+                <h3>Analista de Suporte Técnico Junior</h3>
+                <p>Qality Digital - 2024 até o momento</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </article>
         </section>
