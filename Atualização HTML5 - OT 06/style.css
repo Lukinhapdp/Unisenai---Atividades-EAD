@@ -1,0 +1,113 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 400;
+    font-weight: 600;
+    font-style: normal;
+}
+.topo{
+    margin: 0%;
+    background-color: rgb(6, 95, 46);
+    padding: 10px;
+}
+.caixa1{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 400;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 120px;
+    left: 30%;
+    align-items: center;
+    width: 800px;
+    height: 170px;
+    justify-content: center;
+    background-color: rgb(20, 156, 145);
+    margin-bottom: 50px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.links{
+    padding-right: 40px;
+    padding-left: 40px;
+    color: yellow;
+    text-decoration: none;
+}
+.link{
+    text-align: center;
+    position: absolute;
+    left: 7.2%;
+    padding-top: 10px;
+    border-radius: 40px;
+    width: 700px;
+    height: 30px;
+    background-color: black;
+}
+.caixa2{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 400;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 320px;
+    left: 1%;
+    align-items: center;
+    width: 400px;
+    height: 170px;
+    justify-content: center;
+    background-color: rgba(16, 150, 23, 0.74);
+    margin-bottom: 50px;
+    border: 1px solid #010a02;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.caixa3{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 400;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 320px;
+    left: 40%;
+    align-items: center;
+    width: 400px;
+    height: 170px;
+    justify-content: center;
+    background-color: rgba(17, 114, 22, 0.74);
+    margin-bottom: 50px;
+    border: 1px solid #010a02;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.caixa4{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 400;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 320px;
+    left: 77%;
+    align-items: center;
+    width: 400px;
+    height: 170px;
+    justify-content: center;
+    background-color: rgba(13, 78, 16, 0.74);
+    margin-bottom: 50px;
+    border: 1px solid #010a02;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
