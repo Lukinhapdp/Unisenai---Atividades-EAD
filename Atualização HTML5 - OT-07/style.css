@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-image: url('https://media.istockphoto.com/id/186123880/pt/foto/close-up-de-um-surfista-monta-uma-grande-onda-azul.jpg?s=1024x1024&w=is&k=20&c=2EuRCVP8fbQhSckaNCBaqkNA-vUd7nPS6GbYkWW8dbw='); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5); /* Camada escura para melhor contraste */
+}
+
+.login-form {
+    position: relative;
+    padding: 40px;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.452), rgba(0, 255, 242, 0.589));
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 2; /* Garante que o formulário fique acima do pseudo-elemento ::before */
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que padding não aumente o tamanho do input */
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
