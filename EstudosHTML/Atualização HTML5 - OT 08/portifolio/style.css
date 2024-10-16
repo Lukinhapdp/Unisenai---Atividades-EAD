@@ -1,0 +1,79 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+body header {
+    background-color: rgb(210, 84, 6);
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    height: 80px;
+}
+
+header h1 {
+    margin-left: 10px;
+    width: 83%;
+}
+
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 50%;
+}
+header a {
+    text-decoration: none;
+    float: inline-end;
+    color: #FFFFFF;
+}
+
+
+
+main {
+    background-color: rgb(255, 94, 0);;
+    margin-top: 10px;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+
+
+aside {
+    display: flex;
+    width: 100%;
+    background-color: rgb(220, 119, 56);
+    color: #FFFFFF;
+    margin-top: 10px;
+    bottom: 50px;
+    width: 100%;
+    padding: 10px;
+}
+aside h3{
+    margin: auto;
+}
+aside p{
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(140, 66, 20);
+    color: #FFFFFF;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

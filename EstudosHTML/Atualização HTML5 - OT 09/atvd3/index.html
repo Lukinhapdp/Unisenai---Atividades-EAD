@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja Virtual</h1>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Filtros</h2>
+            <label for="sort">Ordenar por:</label>
+            <select id="sort">
+                <option value="price">Preço</option>
+                <option value="name">Nome</option>
+            </select>
+            <label for="filter">Filtrar por:</label>
+            <select id="filter">
+                <option value="all">Todos</option>
+                <option value="clothing">Roupas</option>
+                <option value="electronics">Eletrônicos</option>
+                <option value="books">Livros</option>
+            </select>
+        </aside>
+
+        <div class="main-content">
+            <div class="product-grid">
+                <div class="product">
+                    <img src="download.jpg" alt="Product 1">
+                    <h3>Produto 1</h3>
+                    <p>R$ 50,00</p>
+                    <button>Comprar</button>
+                </div>
+                <!-- Mais produtos aqui -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Minha Loja Virtual</p>
+    </footer>
+</body>
+</html>
