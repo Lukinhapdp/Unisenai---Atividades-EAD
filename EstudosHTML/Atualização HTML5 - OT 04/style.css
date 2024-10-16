@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(206, 206, 206);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(73, 70, 70);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav a {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(180, 178, 178);
+    text-decoration: none;
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    margin-right: 5px; 
+    margin-bottom: 3px;
+}
+.roupas{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 4, 4);
+}
