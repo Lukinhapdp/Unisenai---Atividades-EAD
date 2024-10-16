@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang= "pt-br" >
+<head>
+<meta charset="UTF-8">
+<meta name= "description" content="Site de inscrição para o evento tech 2024">
+<meta name= "Keywords" content="Inscrição, Evento,">
+<meta name="author" content= "Escola Sistêmica">
+<meta name= "viewport" content= "widht=device-widht, initial-scale=1.0">
+<title>Inscrição para o Evento Tech 2024</title>
+<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+<body>
+	<section>
+		<h2>Inscrição para para o meu blog de noticias</h2>
+		<p>Complete o fomulário abaixo para se inscrever:</p>
+		<form name="frminscricao" method="get" action="#">
+			<fieldset class="inscricao">
+				<legend>Dados pessoais:</legend>
+				<label for="nome">Nome:</label>
+				<input type="text" name="txtnome" id="nome">
+				<label for="fone">Telefone:</label>
+				<input type="text" name="txtfone" id="fone">
+				<label for="email">E-mail:</label>
+				<input type="email" name="txtmail" id="email">
+        		<label for ="senha">Senha:</label>
+       			<input type="password" name="txtsenha" id="senha">
+       			<label for="idade">Idade:</label>
+        		<input type="number" name="txtidade" id="idade">
+				<label for="date">Data de nascimento:</label>
+				<input type="date" name="txtdata" id="data">
+			</fieldset>
+			<fieldset class="preferencias">
+				<legend>Preferências:</legend>
+				<label for="temaDeInteresse">Tema de interesse:</label>
+        			<select name="seleTema" id="tema">
+						<option value="">Selecione um tema de interesse</option>
+						<option value="RE">Jogos</option>
+						<option value="SU">Entretenimento</option>
+						<option value="PR">Filmes</option>
+						<option value="PR">Músicas</option>
+					</select>
+				<label for="workshop"><br>Categorias:<br></label>
+				<input type="checkbox" name="opcao1" value="1">
+				<label for="opcao1">Nacional<br></label>
+				<input type="checkbox" name="opcao2" value="2">
+				<label for="opcao2">Estrangeiro<br></label>
+				<input type="checkbox" name="opcao3" value="3">
+				<label for="opcao3">Ambos<br><br></label>
+				<label for="hora">Horario para receber notificações:</label>
+				<input type="time" name="hora" id="hora">
+				<label for="distancia"><br><br>Quantidade de nformações:</label>
+				<input type="range" name="distancia" id="distancia">
+				<label for="cor"><br><br>Cor de perfil:</label>
+				<input type="color" name="cor" id="cor">
+				<label for="radio"><br><br>Tema:<br></label>
+				<label for="claro">Claro</label>
+				<input type="radio" name="claro" value="claro">
+				<label for="escuro"><br>Escuro</label>
+				<input type="radio" name="escuro" value="escuro">
+				<input type="reset">
+			</fieldset>
+			<fieldset class="final">
+				<legend>Submissão de Apresentação:</legend>
+				<label for="titulo">Título:</label>
+				<input type="title" name="txttitulo" id="titulo">
+				<label for="resumo">Resumo:</label>
+				<textarea name="txaresumo" id="resumo"></textarea>
+				<label for="ficheiro">Anexar foto de perfil:</label>
+				<input type="file" name="txtficheiro" id="ficheiro">
+			</fieldset>
+			<fieldset class="botao">
+				<button type="submit">Enviar inscrição</button>
+			</fieldset>
+		</form>
+	</section>
+	<p>Audio teste</p>
+	<audio controls class="audio">
+		<source src="midia/Rameses_B.mp3" autoplay type="audio/mp3">
+		Seu navegador não suporta o elemento de áudio.
+	</audio>
+	
+	<p>Video teste</p>
+	<div>
+		<video controls class="video">
+			<source src="midia/video.mp4" type="video/mp4">
+			Seu navegador não suporta o elemento de vídeo.
+		</video>
+	</div>
+		<footer><a href="https://github.com/Lukinhapdp">Visite o meu repositorio no GitHub</a><br>
+		&copy;2024 Meu blog de notícias. Todos os direitos reservados.</footer>
+</body>
+</html>
